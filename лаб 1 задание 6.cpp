@@ -19,14 +19,14 @@ int main() {
     list<int> lst = { 1, 2, 3, 4, 5 };
 
     cout << "Исходный список: ";
-    for (const auto& elem : lst) {
+    for (int elem : lst) {
         std::cout << elem << " ";
     }
     std::cout << std::endl;
     duplicateOddValues(lst);
 
     cout << "Преобразованный список: ";
-    for (const auto& elem : lst) {
+    for (int elem : lst) {
         std::cout << elem << " ";
     }
     cout << endl;
